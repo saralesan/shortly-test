@@ -1,0 +1,139 @@
+* {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 10px;
+    border: none;
+    transition: 0.25s ease-in-out;
+    padding: 15px 30px;
+    color: white !important;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(191, 64%, 74%);
+    color: white !important;
+}
+
+.btn-smaller {
+    width: 120px;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+
+.btn-round {
+    border-radius: 50px;
+}
+
+.copied {
+    background-color: hsl(257, 27%, 26%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:link, .nav-item:visited {
+    color: hsl(0, 0%, 75%);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-item:hover, a:link {
+    color: black;
+}
+
+#banner {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    margin-bottom: 0;
+}
+
+.info {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#input-wrapper {
+    background-color: hsl(257, 27%, 26%);
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.index-front {
+    position: relative;
+    z-index: 50;
+}
+
+#bg-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#input-text {
+    flex: 1;
+    display: flex;
+    padding-right: 20px;
+}
+
+input {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: white;
+    width: 100%;
+}
+
+.result {
+    background-color: hsl(230, 25%, 95%);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    margin: 10px auto;
+}
+
+.url {
+    flex: 1;
+}
+
+.short-url {
+    color: hsl(180, 66%, 49%);
+}
+
+.url, .short-url {
+    margin: 10px;
+}
